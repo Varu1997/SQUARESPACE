@@ -1,0 +1,244 @@
+body{
+    background-image: url('../images/reference.png');
+    height: 6736px;
+}
+
+/* Common Styles */
+.container{
+   width: 742px;
+   margin: 0 auto;
+}
+
+/* Quick Links */
+#quick-links{
+    height: 30px;
+}
+#quick-links .f-container{
+    display: flex;
+    justify-content: space-between;
+}
+#quick-links .f-container .f-item{}    
+
+/* Header */
+#header{
+    height:70px;
+}
+#header .f-container{
+    display: flex;
+    justify-content: space-between;
+}
+#header .f-container .f-item{}    
+
+/* Welcome */
+#banner{
+    height: 445px;
+}
+
+/* Highlights */
+#highlights{
+    height: 217px;
+    padding: 58px 0 0 0;
+}
+#highlights .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#highlights .f-item{
+    background-color: #fff;
+    flex-basis: 20%;
+    padding: 10px;
+    box-shadow: #d5d5d5 0px 0px 15px;
+    border-radius: 8px;
+}
+
+/* About */
+#about{
+    height: 610px;
+}
+#about .section-title{
+    height: 155px;
+}
+#about .section-content .f-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+#about .section-content .f-item{
+    background-color: #fff;
+    flex-basis: 41%;
+    padding: 24px;
+    border: 1px solid white;
+    border-radius: 2px; 
+}
+
+/* Skills */
+#skills{
+    height: 200px;
+}
+#skills .f-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#skills .f-item{
+    flex-basis: 28%;
+    padding: 20px ;
+}
+
+/* Statistics */
+#statistics{
+    height: 198px;   
+}
+#statistics .f-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#statistics .f-item{
+    background-color: rgb(218, 207, 207);
+    flex-basis: 14%;
+    padding: 28px;
+    border: 1px solid rgb(189, 186, 186);
+}
+
+/* Clients */
+#clients{
+    height: 74px;
+}
+#clients .f-container{
+     display: flex;
+     justify-content: space-around;
+}
+#clients .f-item{
+    flex-basis: 4%;
+    padding: 30px;
+}
+
+/* Service */
+#service{
+    height: 688px;
+    padding: 58px 0 0 0;
+}
+#service .section-title{
+    height: 200px;
+}
+#service .section-content .f-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#service .section-content .f-item{
+    background-color: #fff;
+    flex-basis: 22%;
+    padding: 30px;
+    margin-bottom: 17px;
+    border: 1px solid rgb(189, 186, 186);
+    border-radius: 2px;
+}
+
+/* Testimonials */
+#testimonials{
+    height: 326px;
+}
+
+/* Portfolio */
+#portfolio{
+    height: 1077px;
+}
+
+/* Team */
+#team{
+    height: 385px;
+    padding: 58px;
+}
+#team .section-title{
+    height: 155px;
+}
+#team .section-content .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#team .section-content .f-item{
+    background-color: #fff;
+    flex-basis: 22%;
+    border: 1px solid white;
+    border-radius: 2px; 
+}
+/* Pricing */
+#pricing{
+    height: 541px;
+}
+#pricing .section-title{
+    height: 155px;
+}
+#pricing .section-content .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#pricing .section-content .f-item{
+    background-color: #fff;
+    flex-basis: 16%;
+    padding: 23px;
+    border: 1px solid rgb(204, 193, 193);
+    border-radius: 2px; 
+}
+/* FAQ */
+#faq{
+    height: 493px;
+}
+
+/* Contact */
+#contact{
+    height: 662px;  
+}
+#contact .section-title{
+    height: 238px ;
+}
+#contact .section-content{}
+#contact .f-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact .f-item{
+    background-color: #fff;
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+#contact .f-item.size-a{
+    flex-basis: 17%;
+}
+#contact .f-item.size-z{
+    flex-basis: 24%;
+}
+
+
+/* Newsletter */
+#newsletter{
+    height: 177px;
+}
+
+/* Footer */
+#footer{
+    height: 255px;
+}
+#footer .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#footer .f-item{
+   flex-basis: 12%;
+   padding: 45px;
+}
+
+/* Legals */
+#legals{
+    height: 57px;
+}
+#legals .f-container{
+    display: flex;
+    justify-content: space-between;
+}
+#legals .f-container .f-item{}    

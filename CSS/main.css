@@ -1,6 +1,7 @@
 body{
     background-image: url('../images/reference.png');
     height: 6736px;
+    font-family: 'Poppins', 'Arial', sans-serif;
 }
 
 /* Common Styles */
@@ -8,9 +9,57 @@ body{
    width: 742px;
    margin: 0 auto;
 }
+.primary-btn{
+    background: #106eea;
+    display: inline-block;
+    padding: 8px 13px;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.secondary-btn{
+    color:  #000;
+    text-decoration: none;
+    line-height: 20px;
+}
+.secondary-btn i{
+     font-size: 20px;
+     color: #106eea;
+     padding-right: 5px;
+}
+.section-title{
+    text-align: center;
+    padding: 44px;
+}
+.section-title h4{
+    padding-bottom: 14px;
+}
+.section-title h4 span{
+    background-color: #e7f1fd;
+    border-radius: 14px;
+    padding: 7px 17px;
+    display: inline-block;
+    color: #106eea;
+    font-size: 12px;
+    font-weight: 100px; 
+}
+.section-title h2{
+    font-size: 25px;
+    color: #444444;
+    margin-bottom: 14px;  
+}
+.section-title h2 span{
+    color: #106eea; 
+}
+.section-title p{
+    max-width: 587px;
+    margin: auto;
+    line-height: 18px;
+}
 
 /* Quick Links */
 #quick-links{
+    background-color: #f3ec2059;
     height: 30px;
 }
 #quick-links .f-container{
@@ -21,7 +70,8 @@ body{
 
 /* Header */
 #header{
-    height:70px;
+    height: 70px;
+    background-color: #b58fbca6;
 }
 #header .f-container{
     display: flex;
@@ -32,11 +82,49 @@ body{
 /* Welcome */
 #banner{
     height: 445px;
+    background-image: url(../images/Reference\ 1.jpg);
+    background-size: cover;
+    position: relative;
 }
+#banner .white-overlay {
+    background: rgba(0, 217, 255, 0.473)
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#banner .f-container{
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+#banner h1{
+    padding-top: 165px;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+#banner h1 span{
+    color: #106eea9c;
+}
+#banner p{
+    font-size: 16px;
+    padding-bottom: 23px;
+}
+#banner .cta-wrapper{}
+#banner .cta-wrapper a{}
+#banner .cta-wrapper a.primary-btn{
+    margin-right: 10px;
+}
+#banner .cta-wrapper a.secondary-btn{
+    
+}
+
 
 /* Highlights */
 #highlights{
     height: 217px;
+    background-color: #00aeff41;
     padding: 58px 0 0 0;
 }
 #highlights .f-container{
@@ -54,6 +142,7 @@ body{
 /* About */
 #about{
     height: 610px;
+    background-color: #f6f9fe;
 }
 #about .section-title{
     height: 155px;
@@ -74,6 +163,7 @@ body{
 /* Skills */
 #skills{
     height: 200px;
+    background-color: #632aa52d;
 }
 #skills .f-container{
     display: flex;
@@ -88,7 +178,8 @@ body{
 
 /* Statistics */
 #statistics{
-    height: 198px;   
+    height: 198px;
+    background-color: #6b312fb7;
 }
 #statistics .f-container{
     display: flex;
@@ -105,6 +196,7 @@ body{
 /* Clients */
 #clients{
     height: 74px;
+    background-color: #ff8c006b;
 }
 #clients .f-container{
      display: flex;
@@ -117,8 +209,7 @@ body{
 
 /* Service */
 #service{
-    height: 688px;
-    padding: 58px 0 0 0;
+    height: 747px;
 }
 #service .section-title{
     height: 200px;
@@ -140,6 +231,7 @@ body{
 /* Testimonials */
 #testimonials{
     height: 326px;
+    background-color: #a0522d66;
 }
 
 /* Portfolio */
@@ -149,8 +241,8 @@ body{
 
 /* Team */
 #team{
-    height: 385px;
-    padding: 58px;
+    height: 500px;
+    background-color: #f6f9fe; 
 }
 #team .section-title{
     height: 155px;
@@ -167,7 +259,7 @@ body{
 }
 /* Pricing */
 #pricing{
-    height: 541px;
+    height: 539px;
 }
 #pricing .section-title{
     height: 155px;
@@ -178,14 +270,14 @@ body{
 }
 #pricing .section-content .f-item{
     background-color: #fff;
-    flex-basis: 16%;
-    padding: 23px;
+    flex-basis: 22%;
     border: 1px solid rgb(204, 193, 193);
     border-radius: 2px; 
 }
 /* FAQ */
 #faq{
     height: 493px;
+    background-color: #f6f9fe;
 }
 
 /* Contact */
@@ -201,7 +293,7 @@ body{
     flex-wrap: wrap;
 }
 #contact .f-item{
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.164);
     border: 1px solid white;
     text-align: center;
     padding: 20px;

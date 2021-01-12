@@ -6,7 +6,7 @@ body{
 
 /* Common Styles */
 .container{
-   width: 742px;
+   width: 1140px;
    margin: 0 auto;
 }
 .primary-btn{
@@ -39,7 +39,7 @@ body{
     border-radius: 14px;
     padding: 7px 17px;
     display: inline-block;
-    color: #106eea;
+    color: #106eead8;
     font-size: 12px;
     font-weight: 100px; 
 }
@@ -119,8 +119,6 @@ body{
 #banner .cta-wrapper a.secondary-btn{
     
 }
-
-
 /* Highlights */
 #highlights{
     height: 217px;
@@ -133,8 +131,8 @@ body{
 }
 #highlights .f-item{
     background-color: #fff;
-    flex-basis: 20%;
-    padding: 10px;
+    flex-basis: 18%;
+    padding: 14px;
     box-shadow: #d5d5d5 0px 0px 15px;
     border-radius: 8px;
 }
@@ -187,16 +185,16 @@ body{
     padding-top: 20px;
 }
 #statistics .f-item{
-    background-color: rgb(218, 207, 207);
+    background-color: #02241f36;
     flex-basis: 14%;
     padding: 28px;
-    border: 1px solid rgb(189, 186, 186);
+    border: 1px solid #011d1707;
 }
 
 /* Clients */
 #clients{
     height: 74px;
-    background-color: #ff8c006b;
+    background-color: hsla(231, 100%, 50%, 0.11);
 }
 #clients .f-container{
      display: flex;
@@ -210,22 +208,39 @@ body{
 /* Service */
 #service{
     height: 747px;
+    background-color: #FFFFFF;
 }
 #service .section-title{
-    height: 200px;
+    height: 100px;
 }
 #service .section-content .f-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around 
 }
 #service .section-content .f-item{
     background-color: #fff;
-    flex-basis: 22%;
-    padding: 30px;
-    margin-bottom: 17px;
-    border: 1px solid rgb(189, 186, 186);
-    border-radius: 2px;
+    flex-basis: 23%;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #E2EEFD;
+    text-align: center;
+}
+ #service .section-content .f-item i{
+     color: hsla(214, 91%, 9%, 0.89);
+     background-color: #F1F6FE;
+     border: 1px solid #DEEBFD;
+     border-radius: 2px;
+     padding: 15px;
+     font-size: 40px;
+}
+#service .section-content .f-item h4{
+     padding-top: 45px;
+     font-size: 15px
+}
+#service .section-content .f-item p{ 
+     padding-top: 24px;
+     font-size: 15px;
 }
 
 /* Testimonials */
@@ -257,6 +272,18 @@ body{
     border: 1px solid white;
     border-radius: 2px; 
 }
+#team .section-content .f-item h4{
+      padding:25px;
+}
+#team .section-content .f-item p{
+    padding: 3px;
+    font-size: 13px;
+    color: grey;
+}
+#team .section-content .f-item img{
+    max-width: 170px;
+    padding:20px ;
+}
 /* Pricing */
 #pricing{
     height: 539px;
@@ -271,13 +298,24 @@ body{
 #pricing .section-content .f-item{
     background-color: #fff;
     flex-basis: 22%;
-    border: 1px solid rgb(204, 193, 193);
+    border: 1px solid #0bf0d121;
     border-radius: 2px; 
 }
 /* FAQ */
 #faq{
     height: 493px;
     background-color: #f6f9fe;
+}
+#faq .section-title{
+    height: 120px;
+}
+#faq .section-content .f-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#faq .section-content .f-item{
+    line-height: 37px;
+    color: rgba(0, 75, 126, 0.445);
 }
 
 /* Contact */

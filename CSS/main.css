@@ -121,8 +121,8 @@ body{
 }
 /* Highlights */
 #highlights{
-    height: 217px;
-    background-color: #00aeff41;
+    height: 307px;
+    background-color: #FFFFFF;
     padding: 58px 0 0 0;
 }
 #highlights .f-container{
@@ -130,12 +130,24 @@ body{
     justify-content: space-around;
 }
 #highlights .f-item{
-    background-color: #fff;
-    flex-basis: 18%;
-    padding: 14px;
-    box-shadow: #d5d5d5 0px 0px 15px;
+    flex-basis: 22%;
+    background-color: #057cb37a;
+    padding: 35px;
+    box-shadow: #E2EEFD 0px 0px 8px;
     border-radius: 8px;
 }
+#highlights .f-item h4 {
+    padding-top: 15px;
+    font-size: 16px;  
+}
+#highlights .f-item p{
+    padding-top:15px ;
+    font-size:14px ;
+}
+#highlights .f-item i{
+    font-size: 35px;
+}
+
 
 /* About */
 #about{
@@ -152,8 +164,8 @@ body{
 }
 #about .section-content .f-item{
     background-color: #fff;
-    flex-basis: 41%;
-    padding: 24px;
+    flex-basis: 21%;
+    padding: 6px;
     border: 1px solid white;
     border-radius: 2px; 
 }
@@ -227,7 +239,7 @@ body{
     text-align: center;
 }
  #service .section-content .f-item i{
-     color: hsla(214, 91%, 9%, 0.89);
+     color:#057cb37a;
      background-color: #F1F6FE;
      border: 1px solid #DEEBFD;
      border-radius: 2px;
@@ -235,11 +247,11 @@ body{
      font-size: 40px;
 }
 #service .section-content .f-item h4{
-     padding-top: 45px;
-     font-size: 15px
+     padding-top: 17px;
+     font-size: 21px
 }
 #service .section-content .f-item p{ 
-     padding-top: 24px;
+     padding-top: 14px;
      font-size: 15px;
 }
 
@@ -273,15 +285,17 @@ body{
     border-radius: 2px; 
 }
 #team .section-content .f-item h4{
-      padding:25px;
+      padding:10px;
+      text-align: center;
 }
 #team .section-content .f-item p{
-    padding: 3px;
+    padding: 1px;
     font-size: 13px;
     color: grey;
+    text-align: center;
 }
 #team .section-content .f-item img{
-    max-width: 170px;
+    max-width: 208px;
     padding:20px ;
 }
 /* Pricing */
@@ -323,7 +337,7 @@ body{
     height: 662px;  
 }
 #contact .section-title{
-    height: 238px ;
+    height: 87px ;
 }
 #contact .section-content{}
 #contact .f-container{
@@ -344,6 +358,10 @@ body{
     flex-basis: 24%;
 }
 
+    
+
+
+
 
 /* Newsletter */
 #newsletter{
@@ -359,7 +377,7 @@ body{
     justify-content: space-around;
 }
 #footer .f-item{
-   flex-basis: 12%;
+   flex-basis: 19%;
    padding: 45px;
 }
 
